@@ -85,9 +85,7 @@ html, body {
   color: #8D484D;
 }
 
-#home-cover {
-  max-height: 60vh;
-}
+
 
 .btn {
   border-radius: 10px;
@@ -400,7 +398,7 @@ html, body {
     margin-top: 50px;
     margin-bottom: 50px;
   }
-  
+
   .jumbotron, .container {
     padding: 30px 50px;
   }
