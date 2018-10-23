@@ -96,7 +96,7 @@ function setEnterView() {
     enter: function(el) {
       el.classList.add('entered');
     },
-    offset: 0.3,
+    offset: 0.4,
     exit: function(el) {
       el.classList.remove('entered');
     }
