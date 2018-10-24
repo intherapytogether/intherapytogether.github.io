@@ -78,7 +78,7 @@ html, body {
 #home .btn {
   margin: 0px 10px;
   letter-spacing: 2px;
-  width: 100px;
+  width: 105px;
 }
 
 #home h1 {
@@ -119,6 +119,20 @@ html, body {
 #instruments a:hover {
   text-decoration: none;
   color: #516F63;
+}
+
+#instruments-btn {
+  border-color: #516F63;
+  color: #516F63;
+  background-color: white;
+  margin-top: 20px;
+  transition: all .3s ease;
+  font-weight: bold;
+}
+
+#instruments-btn:hover {
+  background-color:#516F63;
+  color: white;
 }
 
 #videos p {
