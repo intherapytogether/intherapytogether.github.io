@@ -130,6 +130,11 @@ html, body {
   font-weight: bold;
 }
 
+.btn:focus,.btn:active {
+   outline: none !important;
+   box-shadow: none;
+}
+
 #instruments-btn:hover {
   background-color:#516F63;
   color: white;
