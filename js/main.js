@@ -101,4 +101,15 @@ function setEnterView() {
       el.classList.remove('entered');
     }
   });
+
+  enterView({
+    selector: '.enter-view-low',
+    enter: function(el) {
+      el.classList.add('entered');
+    },
+    offset: 0.5,
+    exit: function(el) {
+      el.classList.remove('entered');
+    }
+  })
 }
