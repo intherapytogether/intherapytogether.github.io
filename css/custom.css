@@ -138,6 +138,7 @@ html, body {
 #instruments-btn:hover {
   background-color:#516F63;
   color: white;
+  border-radius: 0px;
 }
 
 #videos p {
